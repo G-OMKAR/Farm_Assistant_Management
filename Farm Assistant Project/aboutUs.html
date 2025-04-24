@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="Bootstrap Files/css/bootstrap.min.css" rel="stylesheet">
+    <script src="Bootstrap Files/js/jquery.min.js"></script>
+    <script src="Bootstrap Files/js/bootstrap.min.js"></script>
+    <link href="aboutUs.css" rel="stylesheet">
+</head>
+<body>
+    <div class="banner1"> 
+        <div class="container-fluid">
+            <nav class="navbar" style="width: 100%;padding: 20px;height: 120px;">
+                <div class="navbar-header">
+                    <div class="navbar-brand">
+                        <a href="home.html" id="logo">FARM ASSISTANT</a>
+                    </div>
+                    <div class="nav-items"> 
+                        <div><li id="list-item"><a href="home.html" id="searchPage">Home</a></li></div>
+                        <div><li id="list-item"><a href="aboutUs.html" id="searchPage">About Us</a></li></div>
+                        <div><li id="list-item"><a href="product.html" id="searchPage">Products</a></li></div>
+                        <div><li id="list-item"><a href="contactUs.html" id="searchPage">Contact Us</a></li></div>
+                        <div><li id="list-item"><a href="Login.html" id="searchPage">Login</a></li></div>
+                    </div>
+                    <div class="navbar-search">
+                        <div><input placeholder="search here...." class="form-control" id="inputSearch"/></div>
+                        <div><button class="btn btn-success" id="search-button">search</button></div>
+                    </div>
+                </div>  
+            </nav>
+
+            <div>
+                <h2 style="color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; position: relative; left: 300px; top: 200px; font-size: 50px;">About Us</h2>
+            </div>
+            <div>
+                <h4 style="color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; position: relative; left: 300px; top: 200px; font-size: 30px;">Better Agriculture for Better Future</h4>
+            </div>
+        </div>      
+    </div>
+    <div><img src="images/banner3.jpg" style="padding: 20px; margin-top: 100px; margin-bottom: 100px;  margin-left: 90px;" id ="banner2"/></div>
+    <div ><h3 id="headings">About Us</h3></div>
+    <div id="infoDivs"><h2  id="uHeading">Agriculture & Organic Product Form</h2></div>
+    <div style="display: flex; padding: 20px; width: 500px;">
+        <!-- Read More Button -->
+        <button class="btn" id="infoGreenButton" data-toggle="modal" data-target="#aboutUsModal">
+            <h4 style="color: white;">Read More</h4>
+            <div class="glyphicon glyphicon-arrow-right" style="color: white; margin-top: 10px; margin-left: 10px;"></div>
+        </button>
+
+        
+        <div class="modal fade" id="aboutUsModal" tabindex="-1" role="dialog" aria-labelledby="aboutUsModalLabel" aria-hidden="true">
+            <div class="modal-dialog form-group" role="document">
+                <div class="modal-content">
+                    
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="aboutUsModalLabel">About FARM ASSISTANT</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    
+                    <div class="modal-body">
+                        <h3>Welcome to Farm Assistant</h3>
+                        <p>
+                            Farm Assistant is committed to revolutionizing agriculture through innovative organic farming practices. 
+                            Our mission is to create a sustainable, eco-friendly environment that promotes healthy and organic food production.
+                        </p>
+                        <p>
+                            We provide top-notch solutions for growing crops in an environmentally conscious manner, focusing on sustainability 
+                            and modern farming technologies.
+                        </p>
+                        <p>
+                            Join us on our journey towards a greener, healthier, and more sustainable future.
+                        </p>
+                    </div>
+                    
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a href="contactUs.html" style="text-decoration: none;"><button class="btn btn-default" id="infoWhiteButton"><h4 style="color: black;"> Contact Us</h4><div class="glyphicon glyphicon-arrow-right " style="color: black; margin-top: 10px; margin-left: 10px;"></div></button></a>
+    </div>
+    
+    <h3  id="headings">WHY CHOOSE US</h3>
+    <div id="infoDivs"><h2 id="uHeading">Growing Healthy Food</h2></div>
+    <div id="infoDivs"><p id="para">Growing healthy food focuses on organic, sustainable farming, free from harmful chemicals. By using eco-friendly techniques like crop rotation and natural pest control, we ensure nutrient-rich, chemical-free crops. This promotes better health, preserves the environment, and supports local biodiversity.</p></div>
+    <div style="display: flex; padding: 20px; width: 300px; height: 100px;">
+        <button class="btn"  id="infoGreenButton" ><h4 style="color: white;"> Read More</h4><div class="glyphicon glyphicon-arrow-right " style="color: white; margin-top: 10px; margin-left: 10px;"></div></button>
+        <div class="panel" id="aboutPanel">
+            <div class="panel panel-heading">
+                <a href="aboutUs.html"><img src="images/a2.jpg" id="a2"/></a>
+            </div>
+            <div class="panel panel-body">
+                <p style="font-size: 20px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Grain cultivation, through sustainable practices, focuses on high-yield, nutritious crops like wheat, rice, and barley. Using natural fertilizers, efficient irrigation, and soil management, we enhance productivity while preserving the environment, ensuring healthy grains for the future generation.</p>
+            </div>
+
+        </div>
+        <div class="panel" id="aboutPane2">
+            <div class="panel panel-heading">
+                <a href="aboutUs.html"><img src="images/a3.jpg" id="a2"/></a>
+            </div>
+            <div class="panel panel-body">
+                <p style="font-size: 20px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Root vegetable cultivation, including crops like potatoes, carrots, and radishes, emphasizes nutrient-rich, organic farming. By utilizing crop rotation, natural fertilizers, and moisture-retaining techniques, we ensure optimal growth, enhancing soil health while providing wholesome, chemical-free root vegetables.</p>
+            </div>
+
+        </div>
+
+
+    </div>
+    </div>
+    <div style="width: 100%; height: 80px; background-color: rgb(244, 178, 24); position: relative; top:100px; display: flex; justify-content: baseline;">
+        <div><p style="position: relative; left: 50px; top: 30px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 15px; color: white;">Developed by : Omkar Gaikwad, Ritesh Dhane</p></div>
+        <div><p style="position: relative; left: 1100px; top: 30px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 18px; color: white;">copyright 2023. "FARM ASSISTANT". All rigths reserved</p></div>
+    </div>
+    <script src="aboutUs.js"></script>
+</body>
+</html>

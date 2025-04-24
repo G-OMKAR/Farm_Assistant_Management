@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="Bootstrap Files/css/bootstrap.min.css" rel="stylesheet">
+    <script src="Bootstrap Files/js/jquery.min.js"></script>
+    <script src="Bootstrap Files/js/bootstrap.min.js"></script>
+    <link href="aboutUs.css" rel="stylesheet">
+</head>
+<body>
+    <div class="banner1"> 
+        <div class="container-fluid">
+            <nav class="navbar" style="width: 100%;padding: 20px;height: 120px;">
+                <div class="navbar-header">
+                    <div class="navbar-brand">
+                        <a href="#" id="logo">TECH-AGRO FARM</a>
+                    </div>
+                    <div class="nav-items"> 
+                        <div><li id="list-item"><a href="home.html" id="searchPage">Home</a></li></div>
+                        <div><li id="list-item"><a href="aboutUs.html" id="searchPage">About Us</a></li></div>
+                        <div><li id="list-item"><a href="product.html" id="searchPage">Products</a></li></div>
+                        <div><li id="list-item"><a href="#" id="searchPage">Contact Us</a></li></div>
+                    </div>
+                    <div class="navbar-search">
+                        <div><input placeholder="search here...." class="form-control" id="inputSearch"/></div>
+                        <div><button class="btn btn-success" id="search-button">search</button></div>
+                    </div>
+                </div>  
+            </nav>
+
+            <div>
+                <h2 style="color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; position: relative; left: 300px; top: 200px; font-size: 50px;">About Us</h2>
+            </div>
+            <div>
+                <h4 style="color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; position: relative; left: 300px; top: 200px; font-size: 30px;">Better Agriculture for Better Future</h4>
+            </div>
+        </div>      
+    </div>
+    <div><img src="images/banner2.jpg" style="padding: 20px;  margin-left: 80px;" id ="banner2"/></div>
+    <div ><h3 id="headings">About Us</h3></div>
+    <div id="infoDivs"><h2  id="uHeading">Agriculture & Organic Product Form</h2></div>
+    <div style="display: flex; padding: 20px; width: 500px;">
+        <button class="btn" id="infoGreenButton" data-toggle="modal" data-target="#myModal"><h4 style="color: white;"> Read More</h4><div class="glyphicon glyphicon-arrow-right " style="color: white; margin-top: 10px; margin-left: 10px;"></div></button>
+        <div class="modal" id="myModal">
+            <div class="modal-dialog">
+                <div class="model-header">
+                    <button class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <h2>welcome to tech-agro</h2>
+                </div>
+                <div class="model-footer"></div>
+            </div>
+        </div>
+        
+        <button class="btn btn-default" id="infoWhiteButton"><h4 style="color: black;"> Contact Us</h4><div class="glyphicon glyphicon-arrow-right " style="color: black; margin-top: 10px; margin-left: 10px;"></div></button>
+    </div>
+    
+    <h3  id="headings">WHY CHOOSE US</h3>
+    <div id="infoDivs"><h2 id="uHeading">Growing Healthy Food</h2></div>
+    <div id="infoDivs"><p id="para">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo in ligula.</p></div>
+    <div style="display: flex; padding: 20px; width: 300px; height: 100px;">
+        <button class="btn"  id="infoGreenButton" ><h4 style="color: white;"> Read More</h4><div class="glyphicon glyphicon-arrow-right " style="color: white; margin-top: 10px; margin-left: 10px;"></div></button>
+        <div class="panel" id="aboutPanel">
+            <div class="panel panel-heading">
+                <a href="aboutUs.html"><img src="images/a2.jpg" id="a2"/></a>
+            </div>
+            <div class="panel panel-body">
+                <p style="font-size: 20px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Nulla eu elementum quam. magna purus, nec. semper at vel, ipsum dolor et init.Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula.</p>
+            </div>
+
+        </div>
+        <div class="panel" id="aboutPane2">
+            <div class="panel panel-heading">
+                <a href="aboutUs.html"><img src="images/a3.jpg" id="a2"/></a>
+            </div>
+            <div class="panel panel-body">
+                <p style="font-size: 20px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Nulla eu elementum quam. magna purus, nec. semper at vel, ipsum dolor et init.Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula.</p>
+            </div>
+
+        </div>
+
+
+    </div>
+    </div>
+    <div style="width: 100%; height: 80px; background-color: rgb(244, 178, 24); position: relative; top:100px; display: flex; justify-content: baseline;"></div>
+        <div><p style="position: relative; left: 50px; top: 30px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 15px; color: white;">Developed by : Omkar Gaikwad</p></div>
+        <div><p style="position: relative; left: 1200px; top: 30px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 18px; color: white;">copyright 2023. "Tech-Agro Farms". All rigths reserved</p></div>
+    
+    </div>
+    <script src="aboutUs.js"></script>
+</body>
+</html>

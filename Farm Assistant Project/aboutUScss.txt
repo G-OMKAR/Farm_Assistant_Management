@@ -1,0 +1,171 @@
+body {
+    overflow-x: hidden;
+}
+
+.banner1 {
+    width: 100%;
+    height: 700px;
+    background-image: url(images/banner1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+::placeholder {
+    font-size: 20px;
+}
+
+.navbar-header {
+    display: flex;
+    list-style: none;
+    justify-content: space-between; /* Adjusted */
+    align-items: center;
+    width: 100%;
+    padding-right: 50px; /* Adjusted */
+}
+
+.navbar-brand {
+    font-size: 50px;
+}
+
+#logo {
+    color: white;
+}
+
+.nav-items {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+    flex-grow: 1; /* Adjusted */
+}
+
+#list-item:hover {
+    transition-duration: 0.8s;
+    color: rgb(244, 178, 24);
+}
+
+.navbar-search {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#searchPage {
+    color: white;
+}
+
+#inputSearch {
+    height: 40px;
+    width: 500px;
+}
+
+#search-button:hover {
+    transition-duration: 0.1s;
+    transition-delay: 0.5s;
+    transition-timing-function: ease-in-out;
+    background-color: gold;
+    color: white;
+}
+
+.navbar {
+    width: 100%;
+    padding: 20px;
+    height: 150px;
+    position: fixed;
+    z-index: 1000;
+    box-shadow: 0px 20px 50px gray;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+.navbar.scrolled {
+    background-color: white;
+}
+
+.navbar.scrolled #logo,
+.navbar.scrolled #searchPage {
+    color: goldenrod; /* Change the text color to black when scrolled */
+}
+
+#banner2 {
+    width: 100%;
+}
+
+#banner2:hover {
+    transition-duration: 2s;
+    border-radius: 80px;
+    transition-delay: 0.1s;
+    transform: scale(0.9);
+    transition-timing-function:ease-out;
+}
+
+#infoDivs {
+    width: 450px;
+    margin-left: 80px;
+}
+
+#headings {
+    color: rgb(244, 178, 24);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    margin-left: 80px;
+    width: 500px;
+}
+
+#uHeading {
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#para {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#infoGreenButton {
+    background-color: green;
+    width: 150px;
+    display: flex;
+    margin-left: 70px;
+}
+
+#infoWhiteButton {
+    width: 150px;
+    display: flex;
+    margin-left: 50px;
+}
+
+#aboutPanel {
+    box-shadow: 10px 10px 20px gray;
+    border-radius: 20px;
+    width: 500px;
+    height: 600px;
+    text-align: center;
+    margin-left: 700px;
+    margin-top: -480px;
+}
+
+#aboutPane2 {
+    box-shadow: 10px 10px 20px gray;
+    border-radius: 20px;
+    width: 500px;
+    height: 600px;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: -480px;
+}
+
+#a2 {
+    box-shadow: 10px 10px 15px gray;
+    border-radius: 20px;
+    width: 400px;
+    height: 350px;
+}
+
+#a2:hover {
+    transition-delay: 0.2s;
+    transition-duration: 0.5s;
+    border-radius: 10px;
+    transform: scale(0.9);
+    transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
